@@ -222,4 +222,15 @@ a:visited {
 #reset {
   width: 50%;
   margin: 0 auto;
+  padding: 10px 12px;
+  background-color: var(--color-brand--2);
+  border: none;
+  border-radius: 15px;
+  font-size: 16px;
+  transform: translateY(-10px);
+  transition: all 0.2s ease;
+}
+
+#reset:active {
+  transform: translateY(0);
 }
